@@ -1,1 +1,17 @@
+There is a problem when I try to code a Java multithread socket 
+When I try to use jTextArea.append() to add new messages in my text area, it shows nothing
 
+I use an action in initialize function to add "enter" action to a jTextField
+The jTextField is belongs to a server side GUI
+It provides server to do the same oprations as client side
+It calls the function I design and in the function I use jTextArea.append() to add messages in jTextArea
+The message can be showed in the text area
+
+But when threads call the function, everything works well except jTextArea.append() 
+It can shows the processing of threads in console but cannot show in text area
+
+Then I add :
+  allOpFeedback.paintImmediately(allOpFeedback.getX(), allOpFeedback.getY(), allOpFeedback.getWidth(), allOpFeedback.getHeight());
+after
+  allOpFeedback.append("result: " + fbfromDictoServer + "\n");
+everything works well now
