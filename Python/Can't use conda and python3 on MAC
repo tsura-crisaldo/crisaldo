@@ -1,6 +1,9 @@
-**Can't use "conda" command and can't find python3 through Terminal on MAC**
+#Can't use "conda" command and can't find python3 through Terminal on MAC
 
 Today when I try to use pip, conda through terminal, I found it showed me like this:
 "pip: command not found" and "conda: command not found".
 
-Fristly, I tried to use the easiest way to solve this: 
+Fristly, I tried to use the easiest way to solve this: reinstall anaconda3,
+apperantly it doesn't work.
+
+Secondly,
