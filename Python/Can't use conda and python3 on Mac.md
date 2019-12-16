@@ -7,7 +7,7 @@ Today when I try to use pip, conda through terminal, I found it showed me like t
 
     I should **uninstall anaconda3** first:
    - using [App Cleaner](https://nektony.com/mac-app-cleaner) to unistall anaconda-navigator and some remaining files.
-   - deleting anaconda3 dictionary through its path **i.e. /opt/anaconda3**.
+   - deleting anaconda3 dictionary through its path **i.e. /User/myUserID/opt/anaconda3**.
    - deleting lines about anaconda3 **(Ctrl+U)** in .bash_profile file, the difference among /etc/profile, ~/.bashrc, and ~/.bash_profile: [Chinese](https://zhuanlan.zhihu.com/p/25944849) or [English](https://www.stefaanlippens.net/bashrc_and_others/).
    - redownloading [anaconda](https://www.anaconda.com/distribution/) and installing.
    
