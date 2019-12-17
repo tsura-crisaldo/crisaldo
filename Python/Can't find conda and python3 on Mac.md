@@ -1,4 +1,4 @@
-# Can't use "conda", "pip" command and can't find python3 through Terminal on Mac
+# Can't find "conda", "pip" command and python3 through Terminal on Mac
 
 Today when I try to use pip, conda through terminal, I found it showed me like this:
 `pip: command not found` and `conda: command not found`.
