@@ -18,5 +18,5 @@ Today when I try to use pip, conda through terminal, I found it showed me like t
     **set right `PATH` for my shell to find application**:
    1. open ~/.zshrc file: `vim ~/.zshrc`(I use zshell so here I edit ~/.zshrc file, normally you use bash, because it's default set, so you just need to edit ~/.bashrc file: `vim ~/.bashrc`).
    2. `i` to start editing file, inserting `export PATH="$PATH:/User/myUserID/opt/anaconda3/bin"` to this file(This is to tell the shell where to find all the command contained in anaconda3), then `:`, finally `wq` to save and exit.
-   3. restart terminal, I found all the commands like `conda` and `pip` can use now.
+   3. restart terminal, I found all the commands like `conda` and `pip` can use now, and I can also use python3 through terminal.
 `
